@@ -1,0 +1,28 @@
+/*= UTILITIES */
+.ligth-blue{
+    color:#29b1dd;
+}
+
+.bg-ligth-blue{
+    background-color:#29b1dd;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*= HEADER */
+
+#top-header, #bottom-header{
+    height: 75px;
+}
+
+#top-header h1, #bottom-header{
+    padding-top: 25px;
+}
+
+#bottom-header span.text-uppercase{
+    font-size: 20px;
+    font-weight: 600;
+}
+
