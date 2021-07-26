@@ -1,18 +1,31 @@
 /*= UTILITIES */
+/*? COLORS */
 .ligth-blue{
     color:#29b1dd;
 }
 
-.bg-ligth-blue{
+.animal{
+   color:#00f;
+}
+
+.vegetable{
+    color:#ffa500;
+ }
+
+ .vegetable{
+    color:#800080;
+ }
+
+.user{
     background-color:#29b1dd;
 }
 
+/*? GENERALS */
 a{
     text-decoration: none;
 }
 
 /*= HEADER */
-
 #top-header, #bottom-header{
     height: 75px;
 }
@@ -24,5 +37,11 @@ a{
 #bottom-header span.text-uppercase{
     font-size: 20px;
     font-weight: 600;
+}
+
+/*= MAIN */
+main{
+height: calc(100vh - 140px);
+background-color: #ddd;
 }
 
