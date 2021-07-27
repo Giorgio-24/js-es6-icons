@@ -21,6 +21,11 @@
 }
 
 /*? GENERALS */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
 a{
     text-decoration: none;
 }
@@ -41,7 +46,15 @@ a{
 
 /*= MAIN */
 main{
-height: calc(100vh - 140px);
-background-color: #ddd;
+    min-height: calc(100vh - 140px);
+    background-color: #ddd;
 }
 
+#cards-grid{
+    font-size: 16px;
+}
+
+#cards-grid > div.card{
+    margin-right: 15px;
+    margin-bottom: 15px;
+}

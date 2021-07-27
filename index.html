@@ -10,6 +10,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
     <link rel="stylesheet" href="./style.css">
+    <!--     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script> -->
 </head>
 
 <body>
@@ -21,21 +22,18 @@
             <div class="text-light">
                 <span class="text-uppercase">Filtra per tipo</span>
                 <span>
-                    <select name="">
-                        <option value="all">all</option>
-                    </select>
+                    <select id="select-type" name="card-type"></select>
                 </span>
             </div>
         </div>
     </header>
     <main class="p-5">
-        <section class="container">
-            <div id="cards-grid" class="row g-3 text-center">
+        <section class="container ">
+            <div id="cards-grid" class="row g-3  text-center">
 
             </div>
         </section>
     </main>
-
 
     <script src="./iconscript.js"></script>
     <script src="./script.js"></script>
